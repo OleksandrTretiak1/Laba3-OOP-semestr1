@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лабораторна робота 3 ООП (1 семестр)", "Лабораторна робота 3 ООП (1 семестр)\Лабораторна робота 3 ООП (1 семестр).csproj", "{CC70A2DD-A311-4020-AF23-A403C788FE32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC70A2DD-A311-4020-AF23-A403C788FE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC70A2DD-A311-4020-AF23-A403C788FE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC70A2DD-A311-4020-AF23-A403C788FE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC70A2DD-A311-4020-AF23-A403C788FE32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {798D4AFB-0AE4-4216-8E7F-9EC06B0A210C}
+	EndGlobalSection
+EndGlobal
