@@ -39,15 +39,15 @@ namespace Laba_3
                     int dobutok = checked(first * second);
                     multiply.Add(dobutok);
                 }
-                catch (FileNotFoundException _)  // Якщо файл не знайдено
+                catch (FileNotFoundException)  // Якщо файл не знайдено
                 {
                     files_not_exist.Add($"{i}.txt"); // Додаємо до списку файлів, яких не існує
                 }
-                catch (FormatException _)  // Якщо виникає помилка парсингу (нечислові дані)
+                catch (FormatException)  // Якщо виникає помилка парсингу (нечислові дані)
                 {
                     files_not_parsing.Add($"{i}.txt"); // Додаємо до списку файлів з помилками парсингу
                 }
-                catch (OverflowException _)  // Якщо відбувається переповнення числа
+                catch (OverflowException)  // Якщо відбувається переповнення числа
                 {
                     files_not_int.Add($"{i}.txt"); // Додаємо до списку файлів з переповненням
                 }
@@ -59,7 +59,7 @@ namespace Laba_3
                 long result = multiply.Select(x => (long)x).Sum() / multiply.Count;
                 WriteLine($"Середнє значення: {result}");
             }
-            catch (OverflowException _)  // Якщо виникає помилка при обчисленні середнього (переповнення)
+            catch (OverflowException)  // Якщо виникає помилка при обчисленні середнього (переповнення)
             {
                 WriteLine("У нас немає середнього значення");
             }
